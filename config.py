@@ -14,5 +14,3 @@ port = parsed[4]
 db_name = parsed[5]
 
 conn = pg.connect(database=db_name, user=username, password=password, host=hostname, port=port, sslmode='require')
-
-TOKEN = 'OTE2MTQ3MDM0OTk2NzYwNjM3.Yal6ag.JPrwrVieEMWUb31hssrF93ViEus'
